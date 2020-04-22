@@ -1,0 +1,19 @@
+{
+  "name": "jss-plugin-vendor-prefixer-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && node dist/main.js && open index.html"
+  },
+  "dependencies": {
+    "jss": "^10.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-jss": "^10.1.1",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
